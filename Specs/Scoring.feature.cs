@@ -19,21 +19,21 @@ namespace Specs
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "1.8.1.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Addition")]
-    public partial class AdditionFeature
+    [NUnit.Framework.DescriptionAttribute("Scoring")]
+    public partial class ScoringFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "SpecFlowFeature1.feature"
+#line 1 "Scoring.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Addition", "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the sum of t" +
-                    "wo numbers", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Scoring", "In order to keep track of my score\r\nAs a bowler\r\nI want to use an automated scori" +
+                    "ng system with some other feedback", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -66,22 +66,53 @@ namespace Specs
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Add two numbers")]
+        [NUnit.Framework.DescriptionAttribute("Bowling a strike")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void AddTwoNumbers()
+        public virtual void BowlingAStrike()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Bowling a strike", new string[] {
                         "mytag"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I have entered 50 into the calculator");
+ testRunner.Given("I am on the first frame");
 #line 9
- testRunner.And("I have entered 70 into the calculator");
+ testRunner.When("I bowl a strike");
 #line 10
- testRunner.When("I press add");
-#line 11
- testRunner.Then("the result should be 120 on the screen");
+ testRunner.Then("I should see an \"X\" and a message that says \"Good job!\"");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Not scoring in a whole game")]
+        public virtual void NotScoringInAWholeGame()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Not scoring in a whole game", ((string[])(null)));
+#line 12
+this.ScenarioSetup(scenarioInfo);
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Bowling a gutter ball")]
+        public virtual void BowlingAGutterBall()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Bowling a gutter ball", ((string[])(null)));
+#line 14
+this.ScenarioSetup(scenarioInfo);
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("x")]
+        public virtual void X()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("x", ((string[])(null)));
+#line 16
+this.ScenarioSetup(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }

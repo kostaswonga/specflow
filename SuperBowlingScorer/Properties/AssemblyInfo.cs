@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Loan")]
+[assembly: AssemblyTitle("SuperBowlingScorer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Loan")]
+[assembly: AssemblyProduct("SuperBowlingScorer")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a97ceb0a-ead1-4b42-80b8-ec39c95ffd8b")]
+[assembly: Guid("67868d1d-4d7f-460b-81b5-bf3dd42b3a85")]
 
 // Version information for an assembly consists of the following four values:
 //

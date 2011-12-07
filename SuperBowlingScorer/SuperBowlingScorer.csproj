@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C8D97B61-DF49-41CE-A129-D56995FDF749}</ProjectGuid>
+    <ProjectGuid>{1584DD4E-1236-4544-9FA5-CFFB4D10B515}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Loan</RootNamespace>
-    <AssemblyName>Loan</AssemblyName>
+    <RootNamespace>SuperBowlingScorer</RootNamespace>
+    <AssemblyName>SuperBowlingScorer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="Loan.cs" />
+    <Compile Include="SuperScorer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

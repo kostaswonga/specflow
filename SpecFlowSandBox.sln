@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs", "Specs\Specs.csproj", "{38450EAC-0C75-44FE-97F6-A879BE4304C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loan", "Loan\Loan.csproj", "{C8D97B61-DF49-41CE-A129-D56995FDF749}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBowlingScorer", "SuperBowlingScorer\SuperBowlingScorer.csproj", "{1584DD4E-1236-4544-9FA5-CFFB4D10B515}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		{38450EAC-0C75-44FE-97F6-A879BE4304C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38450EAC-0C75-44FE-97F6-A879BE4304C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38450EAC-0C75-44FE-97F6-A879BE4304C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8D97B61-DF49-41CE-A129-D56995FDF749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8D97B61-DF49-41CE-A129-D56995FDF749}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8D97B61-DF49-41CE-A129-D56995FDF749}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8D97B61-DF49-41CE-A129-D56995FDF749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1584DD4E-1236-4544-9FA5-CFFB4D10B515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1584DD4E-1236-4544-9FA5-CFFB4D10B515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1584DD4E-1236-4544-9FA5-CFFB4D10B515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1584DD4E-1236-4544-9FA5-CFFB4D10B515}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
