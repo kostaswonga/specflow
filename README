@@ -1,1 +1,17 @@
-SpecFlow sandbox.
+Simple project with SpecFlow integrated
+
+You will need to install SpecFlow locally in order to have it's Feature and Spec templates available through Visual Studio.
+http://specflow.org/downloads/installer.aspx
+
+How to use SpecFlow
+* Create a new X.feature file
+* Add a feature description
+* Add scenarios that apply to this feature 
+* For each scenario add the relevant steps by using Gherkin( https://github.com/cucumber/cucumber/wiki/Gherkin )
+* Add a X.steps file, this will have some sample methods inside, delete them.
+* Run tests, you will see your scenario and it will fail.
+* Specflow will provide feedback when you haven't defined your steps by showing you what code you need to add in your steps file.
+* Copy each code fragment for each step and add it to your steps file.
+* Fill the steps with the appropriate behaviour.
+
+If your test dll is configured to run with specflow.exe you can get html or xml reports that you can integrated to CI procedures.
